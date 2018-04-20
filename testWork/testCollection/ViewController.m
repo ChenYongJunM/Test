@@ -23,6 +23,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    NSMutableArray;
+    
     self.dataArray = @[].mutableCopy;
 
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 200) collectionViewLayout:[[NewTestCollectionViewLayout alloc]init]];
